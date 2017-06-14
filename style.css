@@ -1,9 +1,9 @@
 .back {
   background: #49a09d !important; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#49a09d, #EC6F66)!important; /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#49a09d, #EC6F66)!important; /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#49a09d, #EC6F66)!important; /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#49a09d, #EC6F66)!important; /* Standard syntax */
+  background: -webkit-linear-gradient(#49a09d, /*#EC6F66*/#D6A4A4)!important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#49a09d, /*#EC6F66*/ #D6A4A4)!important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#49a09d, /*#EC6F66*/ #D6A4A4)!important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#49a09d, /*#EC6F66*/ #D6A4A4)!important; /* Standard syntax */
 
   height: 100%;
   margin: 0px;
