@@ -1,4 +1,4 @@
-body{
+body * {
   background: #EFEFBB; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#EFEFBB, #D4D3DD); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#EFEFBB, #D4D3DD); /* For Opera 11.1 to 12.0 */
