@@ -116,7 +116,7 @@ html,body{
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: contain;
-    border-radius: 50%;
+    border-radius: 100%;
     width: 200px;
     height: 200px;
     transform: translate(-50%, -50%);
