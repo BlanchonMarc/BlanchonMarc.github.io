@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bs.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+    />
+    
+
+    <title>Marc Blanchon</title>
+    <style class="cp-pen-styles">
+          .example-header {
+            background: #3D4351;
+            color: #FFF;
+            font-weight: 300;
+            padding: 3em 1em;
+            text-align: center;
+          }
+          .example-header h1 {
+            color: #FFF;
+            font-weight: 300;
+            margin-bottom: 20px;
+          }
+          .example-header p {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 700;
+          }
+          .container-fluid .row {
+            padding: 0 0 4em 0;
+          }
+          .container-fluid .row:nth-child(even) {
+            background: #F1F4F5;
+          }
+          .example-title {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 3em 0;
+            border-bottom: 1px solid #FFFFFF;
+          }
+          .example-title p {
+            margin: 0 auto;
+            font-size: 16px;
+            max-width: 400px;
+          }
+          /*==================================
+              TIMELINE
+          ==================================*/
+          /*-- GENERAL STYLES
+          ------------------------------*/
+          .timeline {
+            line-height: 1.4em;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+          }
+          .timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
+            line-height: inherit;
+          }
+          /*----- TIMELINE ITEM -----*/
+          .timeline-item {
+            padding-left: 40px;
+            position: relative;
+          }
+          .timeline-item:last-child {
+            padding-bottom: 0;
+          }
+          /*----- TIMELINE INFO -----*/
+          .timeline-info {
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            margin: 0 0 .5em 0;
+            text-transform: uppercase;
+            white-space: nowrap;
+          }
+          /*----- TIMELINE MARKER -----*/
+          .timeline-marker {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 15px;
+          }
+          .timeline-marker:before {
+            background: #307eff;
+            border: 3px solid transparent;
+            border-radius: 100%;
+            content: "";
+            display: block;
+            height: 15px;
+            position: absolute;
+            top: 0px;
+            left: 4px;
+            width: 15px;
+            transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+          }
+          .timeline-marker:after {
+            content: "";
+            width: 3px;
+            background: #FFFFFF;
+            display: block;
+            position: absolute;
+            top: 22px;
+            bottom: 0;
+            left: 12px;
+          }
+          .timeline-item:last-child .timeline-marker:after {
+            content: none;
+          }
+          .timeline-item:not(.period):hover .timeline-marker:before {
+            background: transparent;
+            border: 3px solid #307eff;
+          }
+          /*----- TIMELINE CONTENT -----*/
+          .timeline-content {
+            padding-bottom: 40px;
+          }
+          .timeline-content p:last-child {
+            margin-bottom: 0;
+          }
+          /*----- TIMELINE PERIOD -----*/
+          .period {
+            padding: 0;
+          }
+          .period .timeline-info {
+            display: none;
+          }
+          .period .timeline-marker:before {
+            background: transparent;
+            content: "";
+            width: 20px;
+            height: auto;
+            border: none;
+            border-radius: 0;
+            top: 0;
+            bottom: 30px;
+            position: absolute;
+            border-top: 3px solid #FFFFFF;
+            border-bottom: 3px solid #FFFFFF;
+          }
+          .period .timeline-marker:after {
+            content: "";
+            height: 32px;
+            top: auto;
+          }
+          .period .timeline-content {
+            padding: 40px 0 70px;
+          }
+          .period .timeline-title {
+            margin-left: 12px;
+          }
+          /*----------------------------------------------
+              MOD: TIMELINE SPLIT
+          ----------------------------------------------*/
+          @media (min-width: 768px) {
+            .timeline-split .timeline, .timeline-centered .timeline {
+              display: table;
+            }
+            .timeline-split .timeline-item, .timeline-centered .timeline-item {
+              display: table-row;
+              padding: 0;
+            }
+            .timeline-split .timeline-info, .timeline-centered .timeline-info,
+            .timeline-split .timeline-marker,
+            .timeline-centered .timeline-marker,
+            .timeline-split .timeline-content,
+            .timeline-centered .timeline-content,
+            .timeline-split .period .timeline-info,
+            .timeline-centered .period .timeline-info {
+              display: table-cell;
+              vertical-align: top;
+            }
+            .timeline-split .timeline-marker, .timeline-centered .timeline-marker {
+              position: relative;
+            }
+            .timeline-split .timeline-content, .timeline-centered .timeline-content {
+              padding-left: 30px;
+            }
+            .timeline-split .timeline-info, .timeline-centered .timeline-info {
+              padding-right: 30px;
+            }
+            .timeline-split .period .timeline-title, .timeline-centered .period .timeline-title {
+              position: relative;
+              left: -125px;
+            }
+          }
+          /*----------------------------------------------
+              MOD: TIMELINE CENTERED
+          ----------------------------------------------*/
+          @media (min-width: 992px) {
+            .timeline-centered,
+            .timeline-centered .timeline-item,
+            .timeline-centered .timeline-info,
+            .timeline-centered .timeline-marker,
+            .timeline-centered .timeline-content {
+              display: block;
+              margin: 0;
+              padding: 0;
+            }
+            .timeline-centered .timeline-item {
+              padding-bottom: 40px;
+              overflow: hidden;
+            }
+            .timeline-centered .timeline-marker {
+              position: absolute;
+              left: 50%;
+              margin-left: -7.5px;
+            }
+            .timeline-centered .timeline-info,
+            .timeline-centered .timeline-content {
+              width: 50%;
+            }
+            .timeline-centered > .timeline-item:nth-child(odd) .timeline-info {
+              float: left;
+              text-align: right;
+              padding-right: 30px;
+            }
+            .timeline-centered > .timeline-item:nth-child(odd) .timeline-content {
+              float: right;
+              text-align: left;
+              padding-left: 30px;
+            }
+            .timeline-centered > .timeline-item:nth-child(even) .timeline-info {
+              float: right;
+              text-align: left;
+              padding-left: 30px;
+            }
+             .timeline-item:nth-child(even) .timeline-content {
+              float: left;
+              text-align: right;
+              padding-right: 30px;
+            }
+            .timeline-centered > .timeline-item.period .timeline-content {
+              float: none;
+              padding: 0;
+              width: 100%;
+              text-align: center;
+            }
+            .timeline-centered .timeline-item.period {
+              padding: 50px 0 90px;
+            }
+            .timeline-centered .period .timeline-marker:after {
+              height: 30px;
+              bottom: 0;
+              top: auto;
+            }
+            .timeline-centered .period .timeline-title {
+              left: auto;
+            }
+          }
+          /*----------------------------------------------
+              MOD: MARKER OUTLINE
+          ----------------------------------------------*/
+          .marker-outline .timeline-marker:before {
+            background: transparent;
+            border-color: #FFFFFF;
+          }
+          .marker-outline .timeline-item:hover .timeline-marker:before {
+            background: #FFFFFF;
+          }
+
+          .row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.col-fixed {
+    /* custom width */
+    width:320px;
+}
+.col-min {
+    /* custom min width */
+    min-width:320px;
+}
+.col-max {
+    /* custom max width */
+    max-width:320px;
+}
+
+/* visual styles */
+body {
+    padding-bottom:40px;
+}
+h1 {
+    margin:40px 0px 20px 0px;
+    font-size:2rem;
+    line-height:3rem;
+}
+[class*="col-"] {
+    padding-top:10px;
+    padding-bottom:15px;
+
+}
+[class*="col-"]:before {
+    display:block;position:relative;
+
+    margin-bottom:8px;
+	font-family:sans-serif;
+	font-size:10px;
+    letter-spacing:1px;
+    text-align:left;
+}
+.item {
+    width:100%;
+    height:100%;
+
+}
+          </style>
+          <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item current">
+            <a href="about.html" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="research.html" class="nav-link">Research</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="about">
+      <h1 class="lg-heading">ABOUT <span class="text-secondary">ME</span></h1>
+      <div class="about-info">
+        <img src="../img/test.jpg" alt="Marc Blanchon" class="bio-image" />
+        <div class="bio">
+          <h3 class="text-secondary">BIO</h3>
+          <p class="text-bio">
+            I am Marc, a 24-year-old PhD Student currently working in the ERL
+            VIBOT CNRS team. Passionate about computer vision and artificial
+            intelligence, I am fortunate to be funded by the French National
+            Research Agency to carry out my PhD. I am currently working on
+            the exploitation of unconventional modality (polarimetry) in the
+            field of robotics and intelligent vehicles. For the rest, everything
+            is written below...
+          </p>
+        </div>
+    </div>
+
+  <div class="studies" style="text-align:center;">
+    <h1 style="padding-top:35px;padding-bottom:60px;font-size:40px; text-transform: uppercase;">
+      My Career & Education
+    </h1>
+
+    <div class="row example-centered" style="padding-bottom:40px;">
+
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+            <ul class="timeline timeline-centered">
+                    <li class="timeline-item">
+                            <div class="timeline-info">
+                                <span>October 1, 2018</span>
+                            </div>
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">PhD - Road scene analysis with a multimodal stereovision system</h3>
+                                <p><span style="font-weight:900;">ERL VIBOT CNRS 6000 - ImViA - UBFC</span><br/>
+        
+                                    Funding: French National Research Agency through ANR ICUB (ANR-17-CE22-0011)                           </div>
+                        </li>
+                        <li class="timeline-item period">
+                                <div class="timeline-info"></div>
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h2 class="timeline-title">2018</h2>
+                                </div>
+                            </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>September 12, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">MsCV - Master of Science, Computer Vision</h3>
+                        <p><span style="font-weight:900;">University of Burgundy - Condorcet - France</span><br/>
+
+                        Studying mathematics, programming, robotics, vision, image & signal analysis and the basics of medical imaging, this master allows to have an overview of the research by combining advanced
+                        theory and continuous control on advanced projects (explanation of scientific papers, development of basic algorithms , personal projects ...)</p>
+                    </div>
+                </li>
+                <li class="timeline-item period">
+                    <div class="timeline-info"></div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h2 class="timeline-title">2016</h2>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>September 5, 2015</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">BsCV - Bachelor of Science, Computer Vision </h3>
+                        <p><span style="font-weight:900;">University of Burgundy - Condorcet - France</span><br/>
+                          This bachelor is the springboard to the MsCV. Summarizing the principal concepts and deepening in the areas that the master offers to study,
+                           this bachelor is a real advantage in term of theory preparation.</p>
+                    </div>
+                </li>
+
+
+                <li class="timeline-item period">
+                    <div class="timeline-info"></div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h2 class="timeline-title">2015</h2>
+                    </div>
+                </li>
+
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>September 3, 2013</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">DUT GEII - Technical Degree Electronic Engineering and Industrial Computer Science</h3>
+                        <p><span style="font-weight:900;">University of Burgundy - IUT Le Creusot - France</span><br/>
+                          GEII is a program created to train future senior technicians in the field of electronics and industrial computing.
+                           The basics of electronics, electrical engineering and automation are reviewed while learning programming on computer or electronic card. </p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    
+      </div>
+    </main>
+
+    <footer>Marc Blanchon - 2019</footer>
+    <script src="https://use.typekit.net/bkt6ydm.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>  
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

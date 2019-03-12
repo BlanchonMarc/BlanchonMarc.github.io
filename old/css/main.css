@@ -1,0 +1,210 @@
+.back {
+  background-color:rgba(246, 246, 246, 1);
+
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,body{
+  background-color:rgba(0, 0, 0, 1) !important;}
+
+.inhe{
+  background-color:rgba(0, 0, 0, 0);
+}
+
+.col-centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.jumbotron{
+  min-height:200px;
+}
+
+
+.banner h1, .banner h3, .banner h6 {
+  margin: 0;
+  text-align: center;
+    font-family:'Proxima Nova', Georgia, sans-serif;
+  text-transform: uppercase;
+
+  z-index:1000;
+}
+
+.banner h1, .banner h3 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  z-index:1000;
+  user-select:none;
+  cursor:default;
+  font-weight:bold;
+  font-size:72px;
+  letter-spacing:1px;
+  line-height: 1em;
+  font-style: normal;
+  transform: scale(1.05, 1);
+}
+
+.banner h6 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  z-index:1000;
+  margin-top:15px;
+  user-select:none;
+  cursor:pointer;
+}
+
+
+.banner {
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.butt{
+  background:none;
+  border:2px solid white;
+      font-family:'Proxima Nova', Georgia, sans-serif;
+        font-weight:100;
+      font-size:15px;
+      text-transform: uppercase;
+      padding:15px 25px 15px 25px;
+      letter-spacing: 2px;
+
+}
+
+.butt:hover{
+  cursor:pointer;
+  background:white;
+  color:Black;
+}
+
+.whiten{
+  background-color:rgba(255, 255, 255, 1) !important;
+}
+
+.top{
+
+  height:100vh;
+  width:100%;
+  background-color:#A7D8D9 !important;
+
+  display: table;
+    text-align: center;
+    position:relative ;
+    user-select:none;
+}
+
+.alignit{
+  display: table-cell;
+      vertical-align: middle;
+}
+
+.imageme{
+  position: absolute;
+    top: 20%;
+    left: 50%;
+    background-image: url("../img/me.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+}
+
+.Title{
+  margin: 0;
+  text-align: center;
+  font-family:'Proxima Nova', Georgia, sans-serif;
+  text-transform: uppercase;
+
+  z-index:1000;
+  color:White;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  z-index:1000;
+  user-select:none;
+  cursor:default;
+  font-weight:bold;
+  font-size:35px;
+  letter-spacing:1px;
+  line-height: 1em;
+  font-style: normal;
+  transform: scale(1.05, 1);
+}
+.Desc{
+  margin: 0;
+  text-align: center;
+  font-family:'Proxima Nova', Georgia, sans-serif;
+  text-transform: uppercase;
+
+  z-index:1000;
+  color:White;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  z-index:1000;
+  user-select:none;
+  cursor:default;
+  font-weight:bold;
+  font-size:20px;
+  letter-spacing:1px;
+  line-height: 1em;
+  font-style: normal;
+  transform: scale(1.05, 1);
+}
+.mailto{
+  margin: 0;
+  text-align: center;
+  font-family:'Proxima Nova', Georgia, sans-serif;
+  text-transform: uppercase;
+
+  z-index:1000;
+  color:White;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  z-index:1000;
+  user-select:none;
+  cursor:default;
+  font-weight:bold;
+  font-size:12px;
+  letter-spacing:1px;
+  line-height: 1em;
+  font-style: normal;
+  transform: scale(1.05, 1);
+  text-decoration: none;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+
+.about{
+  user-select: none;
+  cursor:default;
+}
+
+.studies{
+  background-color: #E0E4CD;
+padding-top:45px;
+user-select:none;
+cursor:default;
+
+}
+
+.copyright{
+  text-align:center;
+  margin:auto 0;
+}
