@@ -203,7 +203,7 @@ footer {
 .headlectures{
     min-height: 200px;
 }
-.lectures{
+.lectures-container{
     background: $white;
     color:$primary-color;
     user-select: text;
@@ -212,6 +212,16 @@ footer {
     position: absolute;
     right: 0;
     top: 100px;
+
+    .lectures-grade{
+
+    }
+    .lectures-topic{
+
+    }
+    .lectures{
+
+    }
 }
 
 @import "mobile";

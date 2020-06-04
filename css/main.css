@@ -251,7 +251,7 @@ footer {
 .headlectures {
   min-height: 200px; }
 
-.lectures {
+.lectures-container {
   background: #ffffff;
   color: #222;
   user-select: text;
