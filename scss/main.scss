@@ -221,7 +221,7 @@ footer {
         margin-right: 15px;
         float: left;
         border: 2px solid $primary-color;
-        background-color: white;
+        background-color: $white;
         border-radius: 5px;
         cursor: pointer;
         box-sizing: border-box;
@@ -229,7 +229,12 @@ footer {
 
         h3,h4{
         text-align: center;}
+
+        &:hover{
+            background-color: darken($white, 4);
+        }
     }
+
 
 }
 
