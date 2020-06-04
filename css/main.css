@@ -277,8 +277,11 @@ footer {
       text-align: center; }
     .lectures-container .post:hover {
       background-color: #e6e6e6; }
+  .lectures-container .titles {
+    margin-top: 15px;
+    margin-bottom: 15px; }
   .lectures-container .shift {
-    margin-left: 10px; }
+    margin-left: 15px; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .topics {
