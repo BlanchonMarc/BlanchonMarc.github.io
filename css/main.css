@@ -250,6 +250,9 @@ footer {
 
 .lectures {
   background: #ffffff; }
+  .lectures .headlectures {
+    background: #222;
+    height: 100px; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .topics {
