@@ -249,10 +249,11 @@ footer {
     padding-bottom: 2rem; }
 
 .headlectures {
-  height: 20%; }
+  height: 25%; }
 
 .lectures {
   background: #ffffff;
+  margin: 0;
   color: #222;
   user-select: text; }
 
