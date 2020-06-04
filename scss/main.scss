@@ -203,6 +203,11 @@ footer {
 
 .lectures{
     background: $white;
+
+    .headlectures{
+        background:$primary-color;
+        height: 100px;
+    }
 }
 
 @import "mobile";
