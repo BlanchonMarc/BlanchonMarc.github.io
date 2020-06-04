@@ -266,7 +266,8 @@ footer {
     background-color: white;
     border-radius: 5px;
     cursor: pointer;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    color: #222; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .topics {
