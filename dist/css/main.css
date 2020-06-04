@@ -58,6 +58,7 @@
       height: 250px;
       background: url("../img/test.jpg");
       background-size: contain;
+      background-repeat: no-repeat;
       border-radius: 50%; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
@@ -192,6 +193,7 @@ footer {
     width: 200px;
     height: 200px;
     background: url("../img/test.jpg");
+    background-repeat: no-repeat;
     background-size: contain;
     border-radius: 50%; }
   .about-info .text-bio {
@@ -304,6 +306,7 @@ footer {
     .menu-branding .portrait {
       background: url("../img/test.jpg");
       background-size: contain;
+      background-repeat: no-repeat;
       width: 120px;
       height: 120px; }
   .about-info {
