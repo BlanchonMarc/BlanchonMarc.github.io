@@ -201,13 +201,14 @@ footer {
   }
 }
 .headlectures{
-    height: 25%;
+    min-height: 400px;
 }
 .lectures{
     background: $white;
-    margin: 0;
+    width:100%;
     color:$primary-color;
     user-select: text;
+    flex-grow: 1;
 }
 
 @import "mobile";
