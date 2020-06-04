@@ -226,7 +226,9 @@ footer {
         cursor: pointer;
         box-sizing: border-box;
         color:$primary-color;
-        text-align: center;
+
+        h3,h4{
+        text-align: center;}
     }
 
 }
