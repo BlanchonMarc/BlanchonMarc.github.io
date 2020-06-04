@@ -201,10 +201,11 @@ footer {
   }
 }
 .headlectures{
-    min-height: 200px;
+    min-height: 100px;
 }
 .lectures-container{
-    background: $white;
+    float:left;
+    background: rgba(255,255,255,0.8);
     color:$primary-color;
 
     .post{

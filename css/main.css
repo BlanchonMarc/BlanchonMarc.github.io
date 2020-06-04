@@ -249,10 +249,11 @@ footer {
     padding-bottom: 2rem; }
 
 .headlectures {
-  min-height: 200px; }
+  min-height: 100px; }
 
 .lectures-container {
-  background: #ffffff;
+  float: left;
+  background: rgba(255, 255, 255, 0.8);
   color: #222; }
   .lectures-container .post {
     display: block;
