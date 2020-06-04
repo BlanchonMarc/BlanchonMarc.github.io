@@ -2,14 +2,20 @@
   "name": "new_website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "start": "node app.js"
   },
+  "repository": {
+  "type": "git",
+  "url": ""
+},
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.11.0",
     "sass-google-fonts": "^1.0.1"
-  }
+  },
+  "homepage": ""
 }
