@@ -248,12 +248,13 @@ footer {
     border-bottom: 1px solid white;
     padding-bottom: 2rem; }
 
+.headlectures {
+  height: 20%; }
+
 .lectures {
   background: #ffffff;
-  color: #222; }
-  .lectures .headlectures {
-    background: #222;
-    height: 100px; }
+  color: #222;
+  user-select: text; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .topics {

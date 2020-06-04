@@ -200,15 +200,13 @@ footer {
     padding-bottom: 2rem;
   }
 }
-
+.headlectures{
+    height: 20%;
+}
 .lectures{
     background: $white;
     color:$primary-color;
-
-    .headlectures{
-        background:$primary-color;
-        height: 100px;
-    }
+    user-select: text;
 }
 
 @import "mobile";
