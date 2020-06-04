@@ -256,7 +256,8 @@ footer {
   float: left;
   background: rgba(255, 255, 255, 0.8);
   color: #222;
-  width: 70%; }
+  width: 70%;
+  margin: 0 auto; }
   .lectures-container .post {
     display: block;
     width: 250px;
