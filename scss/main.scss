@@ -207,12 +207,11 @@ footer {
     background: $white;
     color:$primary-color;
     user-select: text;
-    background:green;
     height: 100%;
     width: 100%;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 200px;
 }
 
 @import "mobile";
