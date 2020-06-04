@@ -249,14 +249,18 @@ footer {
     padding-bottom: 2rem; }
 
 .headlectures {
-  min-height: 400px; }
+  min-height: 200px; }
 
 .lectures {
   background: #ffffff;
-  width: 100%;
   color: #222;
   user-select: text;
-  flex-grow: 1; }
+  background: green;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .topics {
