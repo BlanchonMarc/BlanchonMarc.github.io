@@ -255,11 +255,11 @@ footer {
   background: #ffffff;
   color: #222;
   user-select: text;
-  height: 80%;
+  min-height: 100px;
   width: 100%;
   position: absolute;
   right: 0;
-  top: 200px; }
+  top: 100px; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .topics {
