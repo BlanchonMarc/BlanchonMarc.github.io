@@ -5,6 +5,7 @@
 
 $primary-color: #222;
 $secondary-color: #307eff;
+$white:#ffffff;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
@@ -198,6 +199,10 @@ footer {
     border-bottom: 1px solid white;
     padding-bottom: 2rem;
   }
+}
+
+.lectures{
+    background: $white;
 }
 
 @import "mobile";
