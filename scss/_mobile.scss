@@ -138,6 +138,13 @@
 
   .lectures-container{
       width:90%;
+      align-items: center;
+      text-align: center;
+
+      .post{
+          display: inline-block;
+        float:none;
+      }
   }
 }
 
