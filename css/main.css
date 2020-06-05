@@ -288,14 +288,14 @@ footer {
   margin-top: 50px;
   padding-left: 25px;
   padding-right: 25px;
-  background: white;
   color: #222;
   width: 100%;
   margin: 0 auto; }
   .newlecture div {
     font-family: 'CMS', 'Droid Serif', Georgia, Times, serif;
     font-size: 300%;
-    line-height: 65px; }
+    line-height: 65px;
+    background: white; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .topics {
