@@ -413,6 +413,8 @@ footer {
         text-align: inherit;
         border-left: 1px solid white; }
   .lectures-container {
+    align-items: center;
+    text-align: center;
     width: 90%;
     display: inline-block;
     float: none; } }
