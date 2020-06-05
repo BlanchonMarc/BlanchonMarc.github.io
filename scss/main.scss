@@ -249,6 +249,13 @@ footer {
 }
 
 .newlecture{
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgba(255,255,255,0.8);
+    color:$primary-color;
+    width:100%;
+    margin: 0 auto;
+
     div{
         font-family: 'CMS', 'Droid Serif', Georgia, Times, serif;
         color:white;

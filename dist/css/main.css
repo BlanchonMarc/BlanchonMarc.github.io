@@ -284,11 +284,18 @@ footer {
   .lectures-container .shift {
     margin-left: 15px; }
 
-.newlecture div {
-  font-family: 'CMS', 'Droid Serif', Georgia, Times, serif;
-  color: white;
-  font-size: 300%;
-  line-height: 65px; }
+.newlecture {
+  padding-left: 25px;
+  padding-right: 25px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #222;
+  width: 100%;
+  margin: 0 auto; }
+  .newlecture div {
+    font-family: 'CMS', 'Droid Serif', Georgia, Times, serif;
+    color: white;
+    font-size: 300%;
+    line-height: 65px; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .topics {
