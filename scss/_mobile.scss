@@ -135,6 +135,12 @@
       }
     }
   }
+
+  .lectures-container{
+      width:90%;
+      display: inline-block;
+      float:none;
+  }
 }
 
 // Smartphones
@@ -182,5 +188,7 @@
 
   .lectures-container{
       width:90%;
+      display: inline-block;
+      float:none;
   }
 }

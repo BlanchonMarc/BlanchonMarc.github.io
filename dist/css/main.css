@@ -376,7 +376,11 @@ footer {
         border-right: 1px solid white; }
       .research-container .research-item:nth-child(even) {
         text-align: inherit;
-        border-left: 1px solid white; } }
+        border-left: 1px solid white; }
+  .lectures-container {
+    width: 90%;
+    display: inline-block;
+    float: none; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -409,4 +413,6 @@ footer {
         text-align: inherit;
         border-left: 1px solid white; }
   .lectures-container {
-    width: 90%; } }
+    width: 90%;
+    display: inline-block;
+    float: none; } }
