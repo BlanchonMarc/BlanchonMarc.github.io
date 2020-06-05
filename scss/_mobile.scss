@@ -138,8 +138,6 @@
 
   .lectures-container{
       width:90%;
-      display: inline-block;
-      float:none;
   }
 }
 
@@ -190,7 +188,9 @@
       align-items: center;
       text-align: center;
       width:90%;
-      display: inline-block;
-      float:none;
+      .post{
+          display: inline-block;
+        float:none;
+      }
   }
 }

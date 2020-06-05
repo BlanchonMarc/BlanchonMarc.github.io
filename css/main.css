@@ -378,9 +378,7 @@ footer {
         text-align: inherit;
         border-left: 1px solid white; }
   .lectures-container {
-    width: 90%;
-    display: inline-block;
-    float: none; } }
+    width: 90%; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -415,6 +413,7 @@ footer {
   .lectures-container {
     align-items: center;
     text-align: center;
-    width: 90%;
-    display: inline-block;
-    float: none; } }
+    width: 90%; }
+    .lectures-container .post {
+      display: inline-block;
+      float: none; } }
