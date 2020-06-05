@@ -391,6 +391,7 @@ footer {
     align-items: center;
     text-align: center; }
     .lectures-container .post {
+      width: 60%;
       display: inline-block;
       float: none;
       margin-left: 5px;
@@ -431,6 +432,7 @@ footer {
     text-align: center;
     width: 90%; }
     .lectures-container .post {
+      width: 60%;
       display: inline-block;
       float: none;
       margin-left: 5px;
