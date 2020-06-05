@@ -34,6 +34,18 @@
       margin-top: 5rem;
     }
   }
+
+  .lectures-container{
+      align-items: center;
+      text-align: center;
+      width:90%;
+      .post{
+          display: inline-block;
+        float:none;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+  }
 }
 
 // Tablets & Small Laptops
@@ -144,6 +156,8 @@
       .post{
           display: inline-block;
         float:none;
+        margin-left: 5px;
+        margin-right: 5px;
       }
   }
 }
@@ -198,6 +212,8 @@
       .post{
           display: inline-block;
         float:none;
+        margin-left: 5px;
+        margin-right: 5px;
       }
   }
 }

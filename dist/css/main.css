@@ -306,7 +306,16 @@ footer {
       font-weight: 300;
       padding-left: 3rem; }
     .research-container .research-item {
-      margin-top: 5rem; } }
+      margin-top: 5rem; }
+  .lectures-container {
+    align-items: center;
+    text-align: center;
+    width: 90%; }
+    .lectures-container .post {
+      display: inline-block;
+      float: none;
+      margin-left: 5px;
+      margin-right: 5px; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -383,7 +392,9 @@ footer {
     text-align: center; }
     .lectures-container .post {
       display: inline-block;
-      float: none; } }
+      float: none;
+      margin-left: 5px;
+      margin-right: 5px; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -421,4 +432,6 @@ footer {
     width: 90%; }
     .lectures-container .post {
       display: inline-block;
-      float: none; } }
+      float: none;
+      margin-left: 5px;
+      margin-right: 5px; } }
