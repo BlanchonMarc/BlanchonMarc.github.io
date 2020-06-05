@@ -285,7 +285,7 @@ footer {
     margin-left: 15px; }
 
 .newlecture div {
-  font: 'CMS' !important;
+  font-family: 'CMS', 'Droid Serif', Georgia, Times, serif;
   color: white;
   font-size: 300%;
   line-height: 65px; }
