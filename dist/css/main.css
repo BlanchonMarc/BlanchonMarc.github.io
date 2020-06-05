@@ -285,15 +285,15 @@ footer {
     margin-left: 15px; }
 
 .newlecture {
+  margin-top: 50px;
   padding-left: 25px;
   padding-right: 25px;
-  background: rgba(255, 255, 255, 0.8);
+  background: white;
   color: #222;
   width: 100%;
   margin: 0 auto; }
   .newlecture div {
     font-family: 'CMS', 'Droid Serif', Georgia, Times, serif;
-    color: white;
     font-size: 300%;
     line-height: 65px; }
 
