@@ -1,3 +1,4 @@
+@import url(../fonts/Serif/cnum-serif.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,200,300,400");
 .menu-btn {
   position: absolute;
@@ -282,6 +283,12 @@ footer {
     margin-bottom: 15px; }
   .lectures-container .shift {
     margin-left: 15px; }
+
+.newlecture div {
+  font: 'CMS' !important;
+  color: white;
+  font-size: 300%;
+  line-height: 65px; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .topics {
