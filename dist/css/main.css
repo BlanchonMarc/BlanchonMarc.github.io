@@ -395,7 +395,10 @@ footer {
       display: inline-block;
       float: none;
       margin-left: 5px;
-      margin-right: 5px; } }
+      margin-right: 5px; }
+    .lectures-container img {
+      width: 90%;
+      margin: 0 auto; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -436,4 +439,7 @@ footer {
       display: inline-block;
       float: none;
       margin-left: 5px;
-      margin-right: 5px; } }
+      margin-right: 5px; }
+    .lectures-container img {
+      width: 90%;
+      margin: 0 auto; } }
