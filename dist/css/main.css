@@ -277,6 +277,9 @@ footer {
       text-align: center; }
     .lectures-container .post:hover {
       background-color: #e6e6e6; }
+    .lectures-container .post img {
+      width: 94%;
+      margin: 0 auto; }
   .lectures-container .titles {
     margin-top: 30px;
     margin-bottom: 15px; }
@@ -341,7 +344,7 @@ footer {
     background: black;
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     font-weight: bold; }
   .menu-branding {
