@@ -407,4 +407,6 @@ footer {
         border-right: 1px solid white; }
       .research-container .research-item:nth-child(even) {
         text-align: inherit;
-        border-left: 1px solid white; } }
+        border-left: 1px solid white; }
+  .lectures-container {
+    width: 90%; } }
